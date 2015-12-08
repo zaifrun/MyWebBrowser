@@ -22,7 +22,8 @@
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
-
+                <!-- NOTICE: THIS ACTIVITY CANNOT BE LAUNCHED BY THE USER, ONLY
+                  FROM ANOTHER ACTIVITY VIA AN INTENT-->
                 <data android:pathPattern=".*" />
                 <data android:scheme="http" />
             </intent-filter>
